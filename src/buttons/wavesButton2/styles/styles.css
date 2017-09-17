@@ -1,0 +1,65 @@
+.btn__group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+.btn__Debris {
+    margin: 0 30px 30px 30px;
+    display: block;
+}
+.btn__Debris .btn__button {
+
+}
+.Coralwave1{
+    position: absolute;
+    content: '';
+    top: 1.5em;
+    left: 50%;
+    width: 20em;
+    height: 20em;
+    opacity: 0.5;
+    background: #fff;
+    margin-left: -10em;
+    border-radius: 42.5%;
+    transform-origin: 50% 50%;
+    animation: wave 5s infinite linear;
+    transition: all 2s ease, top 1.5s ease;
+}
+/*.btn__Debris:hover .Coralwave1 {*/
+    /*background: #ffb733;*/
+    /*animation: smallwave 3s infinite linear;*/
+/*}*/
+.btn__button {
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    position: relative;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 1rem 3rem 1rem 3rem;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    background: transparent;
+    transition: all 2s ease;
+}
+@keyframes wave {
+    0% {
+        transform: rotate(0deg) scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: rotate(180deg) scale(0.95);
+        opacity: 0.25;
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+        opacity: 0.8;
+    }
+}

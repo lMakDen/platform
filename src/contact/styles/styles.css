@@ -1,4 +1,5 @@
 .contact{
-    background-image: url("./../img/bg2.jpg");
+    background-size: cover;
+    background-image: url("../../contact/img/bg2.jpg");
     height: 100vh;
 }
