@@ -4,7 +4,6 @@ import { Provider } from 'react-redux'
 import Contact from './title/containers/index'
 
 
-
 import configureStore from './photo/store/configureStore'
 
 const store = configureStore();
