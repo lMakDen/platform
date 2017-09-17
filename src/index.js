@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import Contact from './title/containers/index'
-
+import Contact from './contact/containers/index'
+import './styles.css'
 
 import configureStore from './photo/store/configureStore'
 
