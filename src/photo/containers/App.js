@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import User from '../components/User'
 import Page from '../components/Page'
 import * as pageActions from '../actions/PageActions'
+import './photo/styles/app.css'
 
 class App extends Component {
   render() {
