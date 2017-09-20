@@ -9,29 +9,8 @@
     margin: 0 30px 30px 30px;
     display: block;
 }
-.btn__Debris .btn__button {
-
-}
-.Coralwave1{
-    position: absolute;
-    content: '';
-    top: 1.5em;
-    left: 50%;
-    width: 20em;
-    height: 20em;
-    opacity: 0.5;
-    background: #fff;
-    margin-left: -10em;
-    border-radius: 42.5%;
-    transform-origin: 50% 50%;
-    animation: wave 5s infinite linear;
-    transition: all 2s ease, top 1.5s ease;
-}
-/*.btn__Debris:hover .Coralwave1 {*/
-    /*background: #ffb733;*/
-    /*animation: smallwave 3s infinite linear;*/
-/*}*/
 .btn__button {
+    background-color: rgba(0,0,0,0.2);
     cursor: pointer;
     outline: none;
     color: #fff;
@@ -43,9 +22,39 @@
     font-size: 1.5em;
     overflow: hidden;
     border-radius: 5px;
-    border: 5px solid #fff;
-    background: transparent;
+    border: none;
+    box-shadow: 0 0 0 5px hsl(45, 19%, 60%), 0 0 0 10px hsl(117, 33%, 79%);
+    /*border: 5px solid #fff;*/
+    /*background: transparent;*/
     transition: all 2s ease;
+}
+.btn__span{
+    position: absolute;
+    content: '';
+    top: 1.75em;
+    left: 50%;
+    width: 20em;
+    height: 20em;
+    margin-left: -10em;
+    border-radius: 42.5%;
+    transform-origin: 50% 50%;
+    transition: all 1s ease, top 1.5s ease;
+}
+.Coralwave1 {
+    background: #ffb733;
+    animation: smallwave 3s infinite linear;
+}
+.Coralwave2 {
+    background: #f97890;
+    animation: smallwave 4s infinite linear;
+}
+.Coralwave3 {
+    background: #4ab3e1;
+    animation: smallwave 5s infinite linear;
+}
+button:hover .btn__span {
+    top: 0.5em;
+    transition: all 1s ease, top 1.5s ease;
 }
 @keyframes wave {
     0% {
@@ -61,5 +70,21 @@
     100% {
         transform: rotate(360deg) scale(1);
         opacity: 0.8;
+    }
+}
+@keyframes smallwave {
+    0% {
+        transform: rotate(0deg) scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: rotate(180deg) scale(0.95);
+        opacity: 0.25;
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+        opacity: 0.6;
     }
 }

@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
-import  Button from '../../buttons/wavesButton2/container/index';
+import  OneWaveButton from '../../buttons/wavesButton/container/index';
+import  ThreeWaveButton from '../../buttons/wavesButton2/container/index';
+
 import '../styles/styles.css';
 
 
 export default class Contact extends Component {
   render() {
     return <div className="contact">
-      <Button/>
+      <OneWaveButton name="Projects"/>
+      <ThreeWaveButton name="Contacts"/>
     </div>
   }
 }
