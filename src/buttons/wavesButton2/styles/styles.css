@@ -24,8 +24,6 @@
     border-radius: 5px;
     border: none;
     box-shadow: 0 0 0 5px hsl(45, 19%, 60%), 0 0 0 10px hsl(117, 33%, 79%);
-    /*border: 5px solid #fff;*/
-    /*background: transparent;*/
     transition: all 2s ease;
 }
 .btn__span{
@@ -52,7 +50,7 @@
     background: #4ab3e1;
     animation: smallwave 5s infinite linear;
 }
-button:hover .btn__span {
+.btn__button:hover .btn__span {
     top: 0.5em;
     transition: all 1s ease, top 1.5s ease;
 }

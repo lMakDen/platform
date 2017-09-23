@@ -6,10 +6,17 @@ import '../styles/styles.css';
 
 
 export default class Contact extends Component {
+
+  renderContact(){
+    return <div>
+      hello world!
+    </div>
+  }
+
   render() {
-    return <div className="contact">
-      <OneWaveButton name="Projects"/>
-      <ThreeWaveButton name="Contacts"/>
+    return <div className='contact'>
+      <OneWaveButton name='Projects'/>
+      <ThreeWaveButton name='Contacts' value={this.renderContact()}/>
     </div>
   }
 }
