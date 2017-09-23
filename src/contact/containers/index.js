@@ -15,8 +15,8 @@ export default class Contact extends Component {
 
   render() {
     return <div className='contact'>
-      <OneWaveButton name='Projects'/>
-      <ThreeWaveButton name='Contacts' value={this.renderContact()}/>
-    </div>
+            <OneWaveButton name='Projects'/>
+            <ThreeWaveButton name='Contacts' value={this.renderContact()}/>
+          </div>
   }
 }
