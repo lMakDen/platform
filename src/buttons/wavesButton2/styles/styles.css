@@ -10,6 +10,8 @@
     display: block;
 }
 .btn__button {
+    text-decoration: none;
+    display: block;
     background-color: rgba(0,0,0,0.2);
     cursor: pointer;
     outline: none;
