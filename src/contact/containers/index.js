@@ -8,8 +8,8 @@ export default class Contact extends Component {
 
   render() {
     return <div className='contact'>
-                <OneWaveButton name='Projects'/>
-                <ThreeWaveButton name='Contacts' />
+                <OneWaveButton link='/Projects' name='Projects'/>
+                <ThreeWaveButton link='/Contacts' name='Contacts' />
           </div>
   }
 }
