@@ -1,6 +1,6 @@
 .contact{
     background-size: cover;
-    background-image: url("../../contact/img/bg2.jpg");
+    background-image: url("../img/bg2.jpg");
     height: 100vh;
     display: flex;
     justify-content: center;

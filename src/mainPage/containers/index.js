@@ -4,7 +4,7 @@ import  ThreeWaveButton from '../../buttons/wavesButton2/container/index';
 import '../styles/styles.css';
 
 
-export default class Contact extends Component {
+export default class Main extends Component {
 
   render() {
     return <div className='contact'>
